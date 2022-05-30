@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap-grid.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="style.css">
+  <title>HTML</title>
+  
+</head>
+
+<body>
+  
+ <section class="section1">
+   <h1 data-aos="zoom-in-up"> Animation OnScroll</h1>
+ </section>
+ 
+   <section class="section2">
+     <div class="container">
+       <div class="row">
+    <div class="col-md-6"> 
+    <img src="illumi.jpeg" alt="">
+    </div> 
+       <div class="col-md-6 p-5">
+         <hr data-aos="slide-right">
+         <h2 data-aos="slide-right"> This is one of the onscroll images</h2>
+         <p data-aos="slide-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+         <a data-aos="slide-down" href="#">Learn more</a>
+       </div>  
+        </div>
+         </div>
+   </section>
+   
+   
+   <section class="section3">
+     <div class="container">
+       <div class="row">
+ 
+       <div class="col-md-6 p-5">
+         <hr data-aos="slide-left">
+         <h2 data-aos="slide-right"> This is one of the onscroll images</h2>
+         <p data-aos="slide-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+         <a data-aos="zoom-in-down" href="#">Learn more</a>
+       </div>  
+          <div class="col-md-6">
+          <img data-aos="slide-left" src="illumi.jpeg" alt="">
+        </div>
+        </div>
+         </div>
+   </section>
+  
+    <section class="section4">
+     <div class="container">
+       <div class="row">
+          <div class="col-md-4 p-5">
+          <img data-aos="slide-left" src="illumi.jpeg" alt="">
+      
+           <div class="col-md-4 p-5">
+             <img data-aos="zoom-in" src="illumi.jpeg" alt="">
+           </div>
+              <div class="col-md-4 p-5">
+                <img data-aos="slide-right" src="illumi.jpeg" alt="">
+              </div>
+                 <div class="col-md-4 p-5">
+                   <img data-aos="slide-right" src="illumi.jpeg" alt="">
+                 </div>
+                    <div class="col-md-4 p-5">
+                      <img data-aos="zoom-out-up" src="illumi.jpeg" alt="">
+                    </div>
+                       <div class="col-md-4 p-5">
+                         <img data-aos="zoom-out-left" src="illumi.jpeg" alt="">
+                       </div>
+        </div>
+         </div>
+   </section>
+  
+   <section class="section1">
+     <h1 data-aos="zoom-in-up"> Animation OnScroll</h1>
+   </section>
+  
+  <!-- Project -->
+  <script src="main.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+   <script>
+   AOS.init({
+     duration:1000;
+     offset:120;
+     easing:'ease-in-out'
+   });
+   </script>
+</body>
+</html>

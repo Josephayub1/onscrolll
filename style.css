@@ -1,0 +1,64 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  overflow-x: hidden;
+}
+img{
+  width: 100%;
+}
+section{
+  width:100% ;
+min-height:100vh ;
+padding:100px 0; 
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.section1{
+  background: rgba(63,81,181,.9)url(horizon.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+.section3{
+ background:#f7f7f7;
+}
+.section2 img,
+.section3 img{
+  max-height: 450px;
+  
+}
+h1{
+  color: #fff;
+  font-style: 58px;
+}
+h2{
+  font-size: 38px;
+  margin-bottom: 25px;
+}
+p{
+  line-height: 28px;
+}
+hr{
+  height: 3px;
+  background: blue;
+  border: none;
+  width: 20%;
+  margin-bottom: 25px;
+}
+a{
+  display: inline-block;
+  background: blue;
+  color: #fff;
+  padding: 15px 35px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing:1px;
+  margin-top: 35px;
+}
